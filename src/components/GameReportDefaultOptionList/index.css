@@ -1,0 +1,92 @@
+.game-report-default-option-lists {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+@media screen and (min-width: 786px) {
+  .game-report-default-option-lists {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}
+
+.game-report-default-option-list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 48px;
+  margin-top: 20px;
+  padding-top: 3px;
+}
+
+@media screen and (min-width: 786px) {
+  .game-report-default-option-list {
+    min-width: 420px;
+    min-height: 64px;
+    margin-bottom: 20px;
+  }
+}
+
+.game-report-default-option-container {
+  background-color: #cbd5e1;
+  border: none;
+  width: 221px;
+  height: 48px;
+  border-radius: 8px;
+  margin-right: 10px;
+  color: #334155;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+@media screen and (min-width: 786px) {
+  .game-report-default-option-container {
+    min-width: 380px;
+    min-height: 64px;
+    margin-bottom: 20px;
+    padding-left: 0px;
+  }
+}
+
+.game-report-option {
+  color: #334155;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 20px;
+}
+
+@media screen and (min-width: 786px) {
+  .game-report-option {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+  }
+}
+
+.correct-default-option-bg {
+  background-color: #1c944b;
+  color: #f8fafc;
+}
+
+.default-option-check-circle {
+  width: 24px;
+  height: 24px;
+  padding: 2.4px;
+}
+
+@media screen and (min-width: 786px) {
+  .default-option-check-circle {
+    min-width: 32px;
+    min-height: 32px;
+    margin-bottom: 10px;
+  }
+}
+
+.highlight-option-text {
+  color: #f8fafc;
+}

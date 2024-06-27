@@ -1,0 +1,59 @@
+.game-report-option-lists {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+@media screen and (min-width: 786px) {
+  .game-report-option-lists {
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}
+
+.game-report-image-option-list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 48px;
+  margin-top: 20px;
+  padding-top: 3px;
+}
+
+@media screen and (min-width: 786px) {
+  .quiz-report-image-option-list {
+    min-width: 190px;
+    min-height: 50px;
+    margin-bottom: 24px;
+  }
+}
+
+.game-report-image-option-button {
+  background-color: transparent;
+  width: 176px;
+  height: 50px;
+  margin-right: 10px;
+  border: 0px;
+}
+
+.game-report-option-image {
+  width: 176px;
+  height: 50px;
+  gap: 24px;
+}
+
+.game-report-option-check-circle {
+  width: 24px;
+  height: 24px;
+  padding: 2.4px;
+}
+
+@media screen and (min-width: 786px) {
+  .game-report-option-check-circle {
+    min-width: 32px;
+    min-height: 32px;
+    margin-bottom: 4px;
+  }
+}

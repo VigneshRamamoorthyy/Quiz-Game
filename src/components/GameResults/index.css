@@ -1,0 +1,131 @@
+.game-result-bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 95vh;
+  background-image: linear-gradient(
+    91.08deg,
+    #dbbcc4 9.68%,
+    #f3dfd8 32.98%,
+    #d8bfd0 75.7%,
+    #b7b1d5 99.11%
+  );
+}
+
+.result-container {
+  background-color: #f8fafc;
+  background-size: cover;
+  width: 90%;
+  height: 85vh;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 786px) {
+  .result-container {
+    width: 1146px;
+    height: 798px;
+    margin-top: 38px;
+    margin-bottom: 38px;
+  }
+}
+
+.quiz-result-won-image {
+  width: 164px;
+  height: 164px;
+}
+
+.quiz-result-lose-image {
+  width: 189px;
+  height: 141.52px;
+}
+
+@media screen and (min-width: 786px) {
+  .quiz-result-lose-image {
+    width: 410px;
+    height: 307px;
+  }
+}
+
+.quiz-congrats-message {
+  color: #334155;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 6px;
+}
+
+@media screen and (min-width: 786px) {
+  .quiz-congrats-message {
+    font-size: 24px;
+    line-height: 29.05px;
+  }
+}
+
+.quiz-result-percentage {
+  color: #0ea5e9;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 0px;
+}
+
+@media screen and (min-width: 786px) {
+  .quiz-result-percentage {
+    font-size: 32px;
+  }
+}
+
+.quiz-completion-message {
+  color: #334155;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 0px;
+}
+
+@media screen and (min-width: 786px) {
+  .quiz-completion-message {
+    font-size: 24px;
+  }
+}
+
+.quiz-attempt-summary {
+  color: #475569;
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 0px;
+}
+
+@media screen and (min-width: 786px) {
+  .quiz-attempt-summary {
+    width: 362px;
+    font-size: 18px;
+    line-height: 32px;
+  }
+}
+
+.quiz-report-btn {
+  color: #f8fafc;
+  background-color: #0ea5e9;
+  width: 86px;
+  height: 40px;
+  padding: 8px 20px 8px 20px;
+  gap: 10px;
+  border: none;
+  border-radius: 4px;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  cursor: pointer;
+}

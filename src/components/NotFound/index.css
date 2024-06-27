@@ -1,0 +1,30 @@
+.no-found-container {
+  background-color: #f8fafc;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-found-img {
+  width: 90%;
+}
+
+.no-found-heading {
+  color: #475569;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+}
+
+.no-found-description {
+  color: #64748b;
+  font-family: 'HK Grotesk';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+}

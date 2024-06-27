@@ -1,0 +1,248 @@
+.game-report-bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 95vh;
+  background-image: linear-gradient(
+    91.08deg,
+    #dbbcc4 9.68%,
+    #f3dfd8 32.98%,
+    #d8bfd0 75.7%,
+    #b7b1d5 99.11%
+  );
+}
+
+.report-container {
+  background-color: #f8fafc;
+  background-size: cover;
+  width: 90%;
+  min-height: 85vh;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 786px) {
+  .report-container {
+    width: 1146px;
+    margin-top: 38px;
+    margin-bottom: 38px;
+  }
+}
+
+.score-report-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+@media screen and (min-width: 786px) {
+  .score-report-container {
+    height: 300px;
+  }
+}
+
+.score-container {
+  width: 83px;
+  height: 83px;
+  border: 5px #0ea5e9 solid;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 22px;
+}
+
+@media screen and (min-width: 786px) {
+  .score-container {
+    width: 166px;
+    height: 166px;
+    border-radius: 90px;
+    border-width: 8px;
+  }
+}
+
+.quiz-score {
+  color: #0ea5e9;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  margin: 0px;
+}
+
+@media screen and (min-width: 786px) {
+  .quiz-score {
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+  }
+}
+
+.score-divider {
+  color: #475569;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+  margin-left: 0px;
+}
+
+@media screen and (min-width: 786px) {
+  .score-divider {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 48px;
+  }
+}
+
+.total-score {
+  color: #475569;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+}
+
+@media screen and (min-width: 786px) {
+  .total-score {
+    font-size: 32px;
+    line-height: 48px;
+  }
+}
+
+.answer-summary-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.answer-container {
+  height: 44px;
+  display: flex;
+  align-items: center;
+}
+
+.correct-answer-image {
+  width: 24px;
+  height: 18px;
+  margin-right: 10px;
+}
+
+.wrong-answer-image {
+  width: 15px;
+  height: 15px;
+  margin-right: 18px;
+}
+
+.unattempted-answer-image {
+  width: 12px;
+  height: 12px;
+  margin-right: 20px;
+}
+
+.answers-summary {
+  color: #475569;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 32px;
+  text-align: center;
+}
+
+@media screen and (min-width: 786px) {
+  .answers-summary {
+    font-size: 20px;
+    line-height: 32px;
+  }
+}
+
+.unattempted-questions-container {
+  padding-left: 12px;
+  padding-right: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-bottom: 10px;
+  min-height: 70vh;
+}
+
+@media screen and (min-width: 786px) {
+  .unattempted-questions-container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.unattempted-questions-title {
+  color: #0ea5e9;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+@media screen and (min-width: 786px) {
+  .unattempted-questions-title {
+    font-size: 32px;
+  }
+}
+
+.unattempted-question {
+  color: #334155;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.36px;
+  text-align: left;
+}
+
+@media screen and (min-width: 786px) {
+  .unattempted-question {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+  }
+}
+
+.questions-completed-message {
+  color: #0ea5e9;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 48px;
+  margin: auto;
+}
+
+@media screen and (min-width: 786px) {
+  .questions-completed-message {
+    font-family: Inter;
+    font-size: 32px;
+  }
+}
+
+.game-report-question-and-option-container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 12px;
+}
+
+@media screen and (min-width: 786px) {
+  .game-report-question-and-option-container {
+    width: 100%;
+  }
+}
