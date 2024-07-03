@@ -23,9 +23,11 @@ const GameReportDefaultOptionList = props => {
               className={`game-report-default-option-container ${defaultOptionBgClass}`}
               type="button"
             >
-              <p className={`game-report-option ${highlightedOptionText}`}>
+              <button
+                className={`game-report-option-button ${highlightedOptionText}`}
+              >
                 {eachOption.text}
-              </p>
+              </button>
             </div>
             {eachOption.isCorrect ? (
               <img
@@ -44,3 +46,4 @@ const GameReportDefaultOptionList = props => {
 }
 
 export default GameReportDefaultOptionList
+
