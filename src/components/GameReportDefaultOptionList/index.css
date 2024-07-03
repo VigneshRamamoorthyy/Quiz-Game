@@ -52,7 +52,9 @@
   }
 }
 
-.game-report-option {
+.game-report-option-button {
+  border: 0px;
+  background-color: transparent;
   color: #334155;
   font-family: Inter;
   font-size: 14px;
@@ -90,3 +92,4 @@
 .highlight-option-text {
   color: #f8fafc;
 }
+
