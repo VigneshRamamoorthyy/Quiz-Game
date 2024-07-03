@@ -103,12 +103,12 @@ const Login = () => {
         <form className="form-container" onSubmit={onSubmitLoginForm}>
           {renderUsernameField()}
           {renderPasswordField()}
-          <div className="checkbox-container">
+           <div className="checkbox-container">
             <input
               type="checkbox"
               className="password-checkbox"
               onChange={onChangeShowPassword}
-              htmlFor="showpassword"
+              id="showpassword"
             />
             <label
               className="show-password-text"
